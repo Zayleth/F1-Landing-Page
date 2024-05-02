@@ -1,55 +1,56 @@
 .first-section {
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: #1F2937;
-    padding: 6px;
-    margin: 0px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
 }
 
-
 header {
-    width: 100%;
     height: 80px;
     color: #f9fAF8;
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 8px;
+    /* padding: 8px; */
+    content: '';
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
-
 
 #logo {
     width: 80px;
     height: 50px;
     border-radius: 30px;
-    padding: 12px;
-    /* text-align: center; */
-    position: absolute;
+    padding: 0px 12px;
+    position: fixed;
     top: 20px;
-    right: 150px;
-    left: 330px;
+    left: 660px;
 }
 
 #nav {
     color: #f9fAF8;
     width: 50%;
     height: 50px;
-    /* justify-content: center; */
-    /* text-align: center; */
     position: absolute;
-    top: 45px;
+    /* top: 45px; */
     right: 20px;
     left: 580px;
 }
 
 nav > ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: right;
+    gap: 48px;
     flex-wrap: wrap;
     align-items: center;
-    padding-inline-start: 0;
-    margin-block: 0;
+    margin: 0 auto;
 }
   
   nav > ul > li {
@@ -64,47 +65,50 @@ nav > ul {
   li > a {
     color: #dfdfe2;
     text-decoration: none;
+  }
+
+.web-information {
+    display: flex;
+    position: absolute;
+    top: 90px;
+    padding: 50px 0px 0px 0px;
+    margin: 0auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    width: 500px;
 }
 
 .first-text {
     font-size: 48px;
     font-weight: 1000;
     color: #f9fAF8;
-    margin-left: 16px;
-    margin-right: 400px;
+    margin-right: px;
     margin-top: 16px;
-    margin-left: 16px;
     margin-bottom: 0px;
+    width: 320px;
 }
 
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
-    /* margin: 16px; */
-    padding: 8px;
-    margin-right: 86px;
+    padding: 8px 0px;
     margin-top: 0px;
-    margin-left: 11px;
     margin-bottom: 0px;
 }
 
-.web-information {
-    display: flex;
-    margin: 0auto;
-    position: absolute;
-    top: 90px;
-    right: 300px;
-    left: 300px;
-    padding: 20px;
-    margin-top: 12px;
-}
-
 button {
-    margin-right: 16px;
     margin-top: 4px;
-    margin-left: 20px;
     margin-bottom: 4px;
     padding: 8px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 1000;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid dodgerblue;
 }
 
 #circuitos {
