@@ -2,6 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 section {
     min-height: 100vh;
 }
@@ -17,7 +23,6 @@ section {
 /* First Seccion */
 
 .first-section {
-    width: 100%;
     height: 100vh;
     background-color: #1F2937;
     left: 0px;
@@ -33,11 +38,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 8px; */
     content: '';
     position: fixed;
     top: 0px;
     width: 100%;
+}
+
+.header-container {
+    display: flex;
+
 }
 
 #logo {
@@ -46,43 +55,33 @@ header {
     border-radius: 30px;
     border: 4px solid white;
     padding: 0px 12px;
-    position: fixed;
-    top: 20px;
-    left: 660px;
 }
 
 #nav {
     color: #f9fAF8;
-    width: 50%;
-    height: 50px;
-    position: absolute;
-    /* top: 45px; */
-    right: 20px;
-    left: 580px;
+    display: inline;
+
 }
 
 nav > ul {
     display: flex;
-    justify-content: right;
-    gap: 48px;
-    flex-wrap: wrap;
     align-items: center;
-    margin: 0 auto;
 }
-  
-  nav > ul > li {
+
+nav > ul > li {
     color: #dfdfe2;
     margin: 4px;
     padding: 0px;
     display: block;
     list-style: none;
     font-size: 18px;
+    margin-left: 20px;
 }
 
-  li > a {
+li > a {
     color: #dfdfe2;
     text-decoration: none;
-  }
+}
 
 .web-information {
     display: flex;
@@ -99,8 +98,6 @@ nav > ul {
     font-size: 48px;
     font-weight: 1000;
     color: #f9fAF8;
-    margin-right: px;
-    margin-top: 16px;
     margin-bottom: 0px;
     width: 320px;
 }
@@ -138,6 +135,9 @@ button {
     background-color: white;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
 .title {
@@ -146,16 +146,15 @@ button {
     color: #1F2937;
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
-
 
 .F1-Teams {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 62px;
 }
-  
+
 img {
     height: 190px;
     width: 190px;
