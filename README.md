@@ -1,65 +1,40 @@
 ![](https://img.shields.io/badge/Uneweb-blue)
 
-# Project Name
+# F1 PAGE 🏎️
 
-> One paragraph statement about the project.
+> Landing Page Project inspired by Formula 1, a unique blend of high-performance racing, cutting-edge technology, teamwork, and individual brilliance, making it a truly captivating sport.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./image/screen.jpg)
 
-Additional description about the project and its features.
+F1 page is inspired by the Landing Page of The Odin Project. It has several sections whose theme is formula one, each of these contains an aspect in relation to the sport, including the top 4 best teams according to the results of the 2024 season. It also includes a list of phrases said by drivers on different occasions. Finally, the page has a direct link to the official F1 page in case you are interested in knowing more about the topic.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML-CSS
+- Technologies used: Git-GitHub
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://zayleth.github.io/F1-Landing-Page/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Clone the repository in Git, run it from a browser.
 
 ## Authors
 
-👤 **Arístides José Molina Pérez**
+👤 **Zayleth Vegas**
 
-- GitHub: [@aristides1000](https://github.com/aristides1000)
-- Twitter: [@aristides_1000](https://twitter.com/aristides_1000)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aristides-molina/)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@Zayleth](https://github.com/Zayleth)
+- Instagram: @zayleth_v
+- LinkedIn: [LinkedIn]
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Zayleth/F1-Landing-Page-/issues).
 
 ## Show your support
 
@@ -67,9 +42,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Use this project as inspiration to get started in the world of CSS and Flexbox. 
+- Please note that the main "Sign Up" button does not lead to any route because it was made with the objective of practicing decoration.
+- Inspiration: Landing Page - The Odin Project, Pinterest, F1 Page. 
 
 ## 📝 License
 
