@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Uneweb-blue)
 
-# F1 PAGE 🏎️
+# Formula One Page 🏎️
 
 > Landing Page Project inspired by Formula 1, a unique blend of high-performance racing, cutting-edge technology, teamwork, and individual brilliance, making it a truly captivating sport.
 
