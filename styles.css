@@ -107,6 +107,7 @@ li > a {
     margin-top: 0px;
     margin-bottom: 0px;
     width: 600px; /*arreglar*/
+    line-height: 1.3;
 }
 
 button {
