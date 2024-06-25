@@ -16,7 +16,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media screen and (max-width=800px) {
+@media screen and (max-width: 800px) {
     section {
         min-height: 0;
         height: 100%;
