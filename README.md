@@ -11,7 +11,7 @@ F1 page is inspired by the Landing Page of The Odin Project. It has several sect
 ## Built With
 
 - HTML-CSS
-- Technologies used: Git-GitHub
+- Technologies used: Git - GitHub
 
 ## Live Demo
 
@@ -27,7 +27,7 @@ Clone the repository in Git, run it from a browser.
 👤 **Zayleth Vegas**
 
 - GitHub: [@Zayleth](https://github.com/Zayleth)
-- Instagram: @zayleth_v
+- Instagram: @zaylethvs
 - LinkedIn: [LinkedIn]
 
 ## 🤝 Contributing
