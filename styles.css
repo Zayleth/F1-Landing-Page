@@ -75,7 +75,7 @@ li > a {
 /* First Seccion */
 
 .formula_one {
-    color: red;
+    color: #b81414;
 }
 
 .first-section {
@@ -90,7 +90,6 @@ li > a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
 }
 
 .texto-principal {
@@ -99,6 +98,7 @@ li > a {
     align-items: flex-start;
     justify-content: center;
     width: 440px;
+    margin-right: 5rem;
 }
 
 .first-text {
@@ -132,9 +132,9 @@ button {
 }
 
 #circuitos {
-    height: 250px;
-    width: 350px;
-    margin: 20px;
+    height: 350px;
+    width: 300px;
+    margin: 5px;
     border: 1px solid black;
 }
 
